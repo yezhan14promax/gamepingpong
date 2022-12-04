@@ -1,0 +1,13 @@
+	Le joueur joue contre l’ordinateur, vous devrez donc 
+programmer une IA simple qui contrôle l’une des deux raquettes. 
+	La partie commence, la balle est envoyée vers l’un des
+deux côtés. La vitesse de la balle augmente progressivement à
+chaque touche sur une raquette.
+	Le joueur contrôle les déplacements verticaux de sa 
+raquette grâce au flux vidéo de la webcam qui détecte sa main.
+	Un point est donné à un joueur si l’adversaire n’arrive pas 
+à toucher la balle lorsqu’elle est de son côté de l’écran.
+	Une partie se termine quand l’un des joueurs obtient un 
+score de 5 points. 
+	Les scores des parties sont stockés en mémoires, seront 
+conservé : score finale de la partie, joueur gagnant et un id associé à la partie
